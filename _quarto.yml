@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Jasdeep Singh"
+  navbar:
+    right:
+      - about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jas-deep-singh
+  page-footer:
+    left: "© 2025, Jasdeep Singh. All rights reserved."
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jas-deep-singh
+format:
+  html:
+    theme:
+      - journal
+      - brand
+    css: styles.css

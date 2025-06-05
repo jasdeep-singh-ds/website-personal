@@ -1,0 +1,23 @@
+---
+title: "About Me"
+image: profile.jpg # Optional: Add a professional headshot named profile.jpg to your project folder
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jas-deep-singh
+---
+Welcome to my corner of the internet. I am a data scientist with more than six years of building robust and scalable machine learning models and leading technical teams. 
+
+This blog is a space for me to share my thoughts and experiences on topics ranging from the nuances of building effective models to strategies for effective technical leadership.
+
+### My Expertise
+
+* **Machine Learning:** Predictive Modeling, Natural Language Processing, Anomaly Detection.
+
+---
+
+<a href="https://www.linkedin.com/in/jas-deep-singh" class="about-link">
+<i class="bi bi-linkedin"></i> LinkedIn
+</a>

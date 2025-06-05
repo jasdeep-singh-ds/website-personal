@@ -1,0 +1,21 @@
+/* Simple styling for about page links */
+.about-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.about-link:hover {
+  background-color: #005885;
+  color: white;
+}
+
+/* Optional: Style the profile image */
+img[src="profile.jpg"] {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}

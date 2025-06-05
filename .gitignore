@@ -1,0 +1,18 @@
+project-cache/
+logs/
+build/tmp/
+**/cache/
+**/*.tmp/
+
+# Quarto
+.quarto/
+_freeze/
+_site/
+
+# General Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+Thumbs.db
