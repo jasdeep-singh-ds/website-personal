@@ -1,12 +1,12 @@
+[[plugins]]
+  package = "@quarto/netlify-plugin-quarto"
+
 [build]
-  command = "quarto render"
+  command = "quarto render --execute"
   publish = "_site"
 
 [build.environment]
   QUARTO_VERSION = "1.7.31"
-  
-  # Specify the Node.js version. 18.x is a stable and widely compatible choice.
-  # NODE_VERSION = "18"
 
 [build.processing]
   skip_processing = false
