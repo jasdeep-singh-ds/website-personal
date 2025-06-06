@@ -19,3 +19,5 @@ format:
       - journal
       - brand
     css: styles.css
+execute:
+  freeze: auto
