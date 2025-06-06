@@ -1,6 +1,22 @@
 [build]
-  command = "quarto render"
+  command = "npm install -g @quarto/cli@1.7.31 && quarto render"
   publish = "_site"
 
 [build.environment]
   QUARTO_VERSION = "1.7.31"
+  
+  # Specify the Node.js version. 18.x is a stable and widely compatible choice.
+  # NODE_VERSION = "18"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+# [build.processing.images]
+  # compress = true
