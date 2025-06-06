@@ -1,5 +1,5 @@
 [build]
-  command = "npm install -g @quarto/cli@1.7.31 && quarto render"
+  command = "npm install -g @quarto/quarto-cli@1.7.31 && quarto render"
   publish = "_site"
 
 [build.environment]
@@ -18,5 +18,5 @@
   minify = true
 [build.processing.html]
   pretty_urls = true
-# [build.processing.images]
-  # compress = true
+[build.processing.images]
+  compress = true
